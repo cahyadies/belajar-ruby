@@ -12,7 +12,9 @@ puts "Mantan saya tuh #{mantan}"
 
 #======================================
 
-puts "Masukan angka pertama: "
-a = gets.chomp
-puts "Masukan angka kedua"
-b = gets.chomp
+print "Masukan angka pertama: "
+a = gets.chomp.to_i
+print "Masukan angka kedua"
+b = gets.chomp.to_i
+
+print a+b
